@@ -15,6 +15,6 @@
     </div>
 </div>
 
-<script src="<?php echo asset('js/app.js'); ?>"></script>
+<script src="/js/app.js"></script>
 </body>
 </html>

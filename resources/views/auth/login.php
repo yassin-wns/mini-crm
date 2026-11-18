@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sign In — MiniCRM Enterprise</title>
-    <link rel="stylesheet" href="<?php echo asset('css/style.css'); ?>">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body class="login-viewport">
 
 <div class="login-auth-card">
     <div class="login-brand-header">
         <div class="login-brand-icon-wrap">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="width: 26px; height: 26px; max-width: 26px;">
                 <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
                 <circle cx="9" cy="7" r="4"></circle>
                 <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
@@ -126,6 +126,6 @@
     </form>
 </div>
 
-<script src="<?php echo asset('js/app.js'); ?>"></script>
+<script src="/js/app.js"></script>
 </body>
 </html>
